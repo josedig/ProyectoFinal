@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--============================== Remixicons =====================================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--============================== Swiper css =====================================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <!--============================== css =====================================-->
+    <link rel="stylesheet" href="Proyecto/css/style.css">
+    <title>Portafolio web</title>
+</head>
+ <body>
+    <!--============================== Header =====================================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+             <div class="nav__menu" id="nav__menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Hola</a>
+                    </li>
+
+                    <li>
+                        <a href="#servicios" class="nav__link">Servicios</a>
+                    </li>
+
+                    <li>
+                        <a href="#curriculum" class="nav__link">Curriculum</a>
+                    </li>
+
+                    <li>
+                        <a href="portefolio" class="nav__link">Portafolio</a>
+                    </li>
+
+                    <li>
+                        <a href="blog" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contacto" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav__close">
+                    <i class="ri-close-fill"></i>
+                </div>
+             </div>
+             <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-fill"></i>
+             </div>
+        </nav>
+    </header>
+    <!--============================== Main =====================================-->
+    <main class="main">
+        <!--============================== Home =====================================-->
+       <section class="home" id="home">
+        <div class="home__container container grid">
+            <img src="Proyecto/img/fondo1.png" alt="" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__name">Jose Iguaran_</h1>
+                    <p class="home__work">ingeniero en computacion</p>
+                    <dl class="home__list">
+                        <dt>EDAD:</dt>
+                        <dd>21</dd>
+                        <dt>TELEFONO:</dt>
+                        <dd>+58 412-7759254</dd>
+                        <dt>EMAIL:</dt>
+                        <dd>Josedanieliguarangonzalez@gmail.com</dd>
+                        <dt>DIRECCION:</dt>
+                        <dd>VALLE CLARO CALLE 89 AV 71  MARACAIBO - VENEZUELA</dd>
+                    </dl>
+                    <div class="home__socials">
+                        <a href="https://github.com/josedig" target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jose-iguaran-27a5542b0/" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://www.facebook.com/jose.iguaran.927980/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                    </div>
+                </div>
+        </div>
+       </section>
+
+        <!--============================== Hello =====================================-->
+     
+       <section class="hello section container">
+        <h2 class="section__title">Hola_</h2>
+
+        <p class="hello__details text-lg">
+            Soy un desarrollador web júnior capaz de construir una presencia web desde cero, desde el concepto, la navegación, el diseño y la programación hasta
+            la experiencia de usuario y el SEO.
+            Soy experto en escribir código bien diseñado, comprobable y eficiente utilizando las mejores prácticas
+            actuales en desarrollo web.
+            Aprendo rápido, trabajo duro y trabajo en equipo,y soy competente en una variedad de lenguajes de scripting
+            y herramientas web multimedia.
+        </p>
+        <a href="Proyecto/img/curriculum.pdf" class="button button--flex 
+           text-sm"
+           ><i class="ri-download-line"></i> DESCARGA CV</a>
+       </section>
+
+       <!--============================== Service =====================================-->
+      <section class="services section container" id="services">
+        <h2 class="section__title">Servicios_</h2>
+
+        <div class="services__container grid">
+            <div class="services__item">
+                <div class="icon__box">
+                    <img
+                      src="Proyecto/img/Web desing.png"
+                      alt=""
+                      class="services__icon"
+                      />
+                      <div class="services__dot">
+                        <span class="dot"></span>
+                      </div>
+                </div>
+
+                <h3 class="services__title text-lg">DISEÑO WEB</h3>
+                <p class="services__details">
+                    Soy un diseñador y desarrollador web experto. Al contrario de lo popular.
+                    Según nuestra creencia, Lorem Ipsum no es simplemente un texto aleatorio. tiene
+                </p>
+            </div>
+
+            <div class="services__item">
+                <div class="icon__box">
+                    <img
+                      src="Proyecto/img/laptop.png"
+                      alt=""
+                      class="services__icon"
+                      />
+                      <div class="services__dot">
+                        <span class="dot"></span>
+                      </div>
+                </div>
+
+                <h3 class="services__title text-lg">DESARROLO WEB</h3>
+                <p class="services__details">
+                    Soy un diseñador y desarrollador web experto. Al contrario de lo popular.
+                    Según nuestra creencia, Lorem Ipsum no es simplemente un texto aleatorio. tiene
+                </p>
+            </div>
+            
+            <div class="services__item">
+                <div class="icon__box">
+                    <img
+                      src="Proyecto/img/paint.png"
+                      alt=""
+                      class="services__icon"
+                      />
+                      <div class="services__dot">
+                        <span class="dot"></span>
+                      </div>
+                </div>
+
+                <h3 class="services__title text-lg">DISEÑO CREATIVO</h3>
+                <p class="services__details">
+                    Soy un diseñador y desarrollador web experto. Al contrario de lo popular.
+                    Según nuestra creencia, Lorem Ipsum no es simplemente un texto aleatorio. tiene
+                </p>
+            </div>
+
+            <div class="services__item">
+                <div class="icon__box">
+                    <img
+                      src="Proyecto/img/phone.png"
+                      alt=""
+                      class="services__icon"
+                      />
+                      <div class="services__dot">
+                        <span class="dot"></span>
+                      </div>
+                </div>
+
+                <h3 class="services__title text-lg">DISEÑO RESPONSIVO</h3>
+                <p class="services__details">
+                    Soy un diseñador y desarrollador web experto. Al contrario de lo popular.
+                    Según nuestra creencia, Lorem Ipsum no es simplemente un texto aleatorio. tiene
+                </p>
+            </div>
+            
+            <div class="services__item">
+                <div class="icon__box">
+                    <img
+                      src="Proyecto/img/Verifiqued.png"
+                      alt=""
+                      class="services__icon"
+                      />
+                      <div class="services__dot">
+                        <span class="dot"></span>
+                      </div>
+                </div>
+
+                <h3 class="services__title text-lg">IDENTIDAD DE MARCA</h3>
+                <p class="services__details">
+                    Soy un diseñador y desarrollador web experto. Al contrario de lo popular.
+                    Según nuestra creencia, Lorem Ipsum no es simplemente un texto aleatorio. tiene
+                </p>
+            </div>
+
+            <div class="services__item">
+                <div class="icon__box">
+                    <img
+                      src="Proyecto/img/operador.png"
+                      alt=""
+                      class="services__icon"
+                      />
+                      <div class="services__dot">
+                        <span class="dot"></span>
+                      </div>
+                </div>
+
+                <h3 class="services__title text-lg">SOPORTE 24/7</h3>
+                <p class="services__details">
+                    Soy un diseñador y desarrollador web experto. Al contrario de lo popular.
+                    Según nuestra creencia, Lorem Ipsum no es simplemente un texto aleatorio. tiene
+                </p>
+            </div>
+
+        </div>
+      </section>
+
+      <!--============================== Resume =====================================-->
+      <section class="section container" id="resume">
+        <h2 class="section__title">Curriculum_</h2>
+
+        
+        <div class="resume__container grid">
+            <div class="resume__data">
+
+                <h3 class="resume__title text-sm">EDUCACION</h3>
+
+                <div class="resume__item">
+                    <h3 class="resume__subtitle text-sm">UNIVERSIDAD RAFAEL BELLOSO CHACIN</h3>
+                    <p class="resume__date text-sm">2020-2023</p>
+                    <p class="resume__descrition text-lg">licenciado en Ingenieria en Computacion. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Et doloremque hic accusamus optio, quae blanditiis sit amet exercitationem reprehenderit non dolore atque sequi odio tempore natus!
+                        Sint quibusdam ut molestias!
+                    </p>
+                </div>
+
+                <div class="resume__item">
+                    <h3 class="resume__subtitle text-sm">CURSO INTENSIVO: LOGROS</h3>
+                    <p class="resume__date text-sm">2025-2025</p>
+                    <p class="resume__descrition text-lg">Certificado En Programacion. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Et doloremque hic accusamus optio, quae blanditiis sit amet exercitationem reprehenderit non dolore atque sequi odio tempore natus!
+                        Sint quibusdam ut molestias!</p>
+                </div>
+
+                <div class="resume__item">
+                    <h3 class="resume__subtitle text-sm">DON SIMON RODRIGUEZ</h3>
+                    <p class="resume__date text-sm">2017-2020</p>
+                    <p class="resume__descrition text-lg">Estudiante Bachiller Con Honores. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Et doloremque hic accusamus optio, quae blanditiis sit amet exercitationem reprehenderit non dolore atque sequi odio tempore natus!
+                        Sint quibusdam ut molestias!</p>
+                </div>
+
+            </div>
+
+              <div class="resume__data">
+                <h3 class="resume__title text-sm">EMPLEOS</h3>
+
+                <div class="resume__item">
+                    <h3 class="resume__subtitle text-sm">KASHI STORE</h3>
+                    <p class="resume__date text-sm">2020-2021</p>
+                    <p class="resume__descrition text-lg">Administrador. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Et doloremque hic accusamus optio, quae blanditiis sit amet exercitationem reprehenderit non dolore atque sequi odio tempore natus!
+                        Sint quibusdam ut molestias!
+                    </p>
+                </div>
+
+                <div class="resume__item">
+                    <h3 class="resume__subtitle text-sm">FARMA GLOBAL</h3>
+                    <p class="resume__date text-sm">2022-2023</p>
+                    <p class="resume__descrition text-lg">Auxiliar de Farmacia. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Et doloremque hic accusamus optio, quae blanditiis sit amet exercitationem reprehenderit non dolore atque sequi odio tempore natus!
+                        Sint quibusdam ut molestias!</p>
+                </div>
+
+                <div class="resume__item">
+                    <h3 class="resume__subtitle text-sm">PAPA HELADOS</h3>
+                    <p class="resume__date text-sm">2024</p>
+                    <p class="resume__descrition text-lg">Operador Integral-Utility. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Et doloremque hic accusamus optio, quae blanditiis sit amet exercitationem reprehenderit non dolore atque sequi odio tempore natus!
+                        Sint quibusdam ut molestias!</p>
+                </div>
+
+            </div>
+
+        </div>
+
+      </section>
+
+      <!--============================== Skills =====================================-->
+      <section class="section container">
+        <h2 class="section__title">Habilidades_</h2>
+
+        <div class="skills__container grid">
+            <div class="skills__content">
+                <h3 class="skills__title text-sm" >FRONTEND</h3>
+
+               <div class="skills__list grid">
+
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <p class="skills__name text-sm">HTML</p>
+                        <span class="skills__number text-sm">90%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage" style="width: 90%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <p class="skills__name text-sm">CSS</p>
+                        <span class="skills__number text-sm">80%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage" style="width: 80%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <p class="skills__name text-sm">JavaScript</p>
+                        <span class="skills__number text-sm">60%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage" style="width: 60%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <p class="skills__name text-sm">React</p>
+                        <span class="skills__number text-sm">85%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage" style="width: 85%;"></span>
+                    </div>
+                </div>
+               </div>
+            </div>
+
+            <div class="skills__content">
+                <h3 class="skills__title text-sm" >BACKEND</h3>
+
+               <div class="skills__list grid">
+
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <p class="skills__name text-sm">PHP</p>
+                        <span class="skills__number text-sm">90%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage" style="width: 90%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <p class="skills__name text-sm">Node Js</p>
+                        <span class="skills__number text-sm">80%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage" style="width: 80%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <p class="skills__name text-sm">Python</p>
+                        <span class="skills__number text-sm">60%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage" style="width: 60%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <p class="skills__name text-sm">MySQL</p>
+                        <span class="skills__number text-sm">85%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage" style="width: 85%;"></span>
+                    </div>
+                </div>
+               </div>
+            </div>
+
+        </div>
+      </section>
+
+      <!--============================== Projects =====================================-->
+      <section class="work section container" id="portafolio">
+        <h2 class="section__title">Trabajo_</h2>
+
+        <div class="project__categories">
+            <button class="category__btn text-xs active-work" data-filter="all">TODO</button>
+            <button class="category__btn text-xs" data-filter=".app">APLICACIONES MOBILES</button>
+            <button class="category__btn text-xs" data-filter=".web">SITIOS-WEB</button>
+            <button class="category__btn text-xs" .landing>PAGINAS DE DESTINO</button>
+        </div>
+
+        <div class="projects__container grid">
+            <div class="project__item grid mix app">
+                <img src="Proyecto/img/Proyecto1.png" alt="" class="project__img">
+
+                <div class="project__data">
+                    <h3 class="project__title text-lg">APLICACION MOVIL Y DE ESCRITORIO PARA PAPA HELADOS</h3>
+                    <p class="project__description">APLICACION CON SISTEMA DE PRECIOS Y PEDIDOS. Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit.</p>
+                    <h4 class="project__stack text-xs">PILA USADA:</h4>
+                    <ul class="tags text-sm">
+                        <li>html5</li>
+                        <li>css3</li>
+                        <li>JavaScript</li>
+                        <li>BEM</li>
+                        <li>bower</li>
+                        <li>grunt</li>
+                    </ul>
+
+                    <a href="" class="project__link text-sm">www.superapp.com</a>
+                </div>
+            </div>
+
+            <div class="project__item grid mix web">
+                <img src="Proyecto/img/webside.jpg" alt="" class="project__img">
+
+                <div class="project__data">
+                    <h3 class="project__title text-lg">PAGINA WEB PARA COMPAÑIA DE VIEJES</h3>
+                    <p class="project__description">APLICACION CON SISTEMA DE PRECIOS Y PEDIDOS. Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit.</p>
+                    <h4 class="project__stack text-xs">PILA USADA:</h4>
+                    <ul class="tags text-sm">
+                        <li>html5</li>
+                        <li>css3</li>
+                        <li>JavaScript</li>
+                        <li>BEM</li>
+                        <li>bower</li>
+                        <li>grunt</li>
+                    </ul>
+
+                    <a href="" class="project__link text-sm">www.superapp.com</a>
+
+                   
+                </div>
+            </div>
+            
+            <div class="project__item grid mix landing">
+                <img src="Proyecto/img/landingpage.jpg" alt="" class="project__img">
+
+                <div class="project__data">
+                    <h3 class="project__title text-lg">PLANTILLA DE ADMINISTRADOR PARA EL SERVICIO DE FOTOS</h3>
+                    <p class="project__description">APLICACION CON SISTEMA DE PRECIOS Y PEDIDOS. Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit.</p>
+                    <h4 class="project__stack text-xs">PILA USADA:</h4>
+                    <ul class="tags text-sm">
+                        <li>html5</li>
+                        <li>css3</li>
+                        <li>JavaScript</li>
+                        <li>BEM</li>
+                        <li>bower</li>
+                        <li>grunt</li>
+                    </ul>
+
+                    <a href="" class="project__link text-sm">www.superapp.com</a>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--============================== testimonials =====================================-->
+      <section class="testimonials section">
+        <div class="testimonial__bg">
+            <div class="testimonial__icon">
+                <i class="ri-double-quotes-r"></i>
+            </div>
+
+            <div class="swiper testimonial__container container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide testimonial__item">
+                        <h3 class="author__name text-lg">Mariangel Moronta</h3>
+                        <p class="author__project">Proyecto: Pagina de inicio para compañia de viajes</p>
+                        <div class="ruler"></div>
+                        <p class="testimonial__description text-lg">Arriba o bien debe menos alquiler leer caminar así sea.
+                            Fácil vendido en hacer hora cantar lugar.
+                            Cualquier significado ha cesado también la decadencia.
+                            Desde que estalló la fiesta, soy partido. Por o se sonroja entre además de oficinas más ruidosas como.
+                            Enviando trajo brújula sinuosa. Fácil vendido en hacer hora cantar lugar menos alquiler leer caminar así sea.
+                            Cualquier significado ha cesado también la decadencia.</p>
+
+                    </div>
+
+                    <div class="swiper-slide testimonial__item">
+                        <h3 class="author__name text-lg">Mariangel Moronta</h3>
+                        <p class="author__project">Proyecto: Pagina de inicio para compañia de viajes</p>
+                        <div class="ruler"></div>
+                        <p class="testimonial__description text-lg">Arriba o bien debe menos alquiler leer caminar así sea.
+                            Fácil vendido en hacer hora cantar lugar.
+                            Cualquier significado ha cesado también la decadencia.
+                            Desde que estalló la fiesta, soy partido. Por o se sonroja entre además de oficinas más ruidosas como.
+                            Enviando trajo brújula sinuosa. Fácil vendido en hacer hora cantar lugar menos alquiler leer caminar así sea.
+                            Cualquier significado ha cesado también la decadencia.</p>
+
+                    </div>
+
+                    <div class="swiper-slide testimonial__item">
+                        <h3 class="author__name text-lg">Mariangel Moronta</h3>
+                        <p class="author__project">Proyecto: Pagina de inicio para compañia de viajes</p>
+                        <div class="ruler"></div>
+                        <p class="testimonial__description text-lg">Arriba o bien debe menos alquiler leer caminar así sea.
+                            Fácil vendido en hacer hora cantar lugar.
+                            Cualquier significado ha cesado también la decadencia.
+                            Desde que estalló la fiesta, soy partido. Por o se sonroja entre además de oficinas más ruidosas como.
+                            Enviando trajo brújula sinuosa. Fácil vendido en hacer hora cantar lugar menos alquiler leer caminar así sea.
+                            Cualquier significado ha cesado también la decadencia.</p>
+
+                    </div>
+                </div>
+
+                <div class="swiper-button-next">
+                    <img src="Proyecto/img/arrow-next-small.svg" alt="">
+                </div>
+                <div class="swiper-button-prev">
+                    <img src="Proyecto/img/arrow-next-smalli.svg" alt="">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+      </section>
+
+      <!--============================== blog =====================================-->
+      <section class="blog section container" id="blog">
+        <h2 class="section__title">Ultima Publicacion_</h2>
+        <div class="post__container grid">
+            <div class="post__card">
+                <img src="Proyecto/img/blog-1.png" alt="" class="post__img">
+
+                <div class="post__content">
+                    <p class="post__date text-xs">Octubre 25, 2021</p>
+                    <h3 class="post__title text-sm">COMO USAR EL PROSESADOR CSS</h3>
+                    <p class="post__description text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Sequi aliquid possimus numquam enim iusto iure, nemo odit! Aperiam reprehenderit ad sapiente ex exercitationem consectetur autem reiciendis?
+                        Sit dicta amet vero.</p>
+                </div>
+            </div>
+
+             <div class="post__card">
+                <img src="Proyecto/img/blog-2.png" alt="" class="post__img">
+
+                <div class="post__content">
+                    <p class="post__date text-xs">Octubre 25, 2021</p>
+                    <h3 class="post__title text-sm">COMO ORGANIZO MI TRABAJO EN CODIGO</h3>
+                    <p class="post__description text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Sequi aliquid possimus numquam enim iusto iure, nemo odit! Aperiam reprehenderit ad sapiente ex exercitationem consectetur autem reiciendis?
+                        Sit dicta amet vero.</p>
+                </div>
+            </div>
+
+             <div class="post__card">
+                <img src="Proyecto/img/blog-3.png" alt="" class="post__img">
+
+                <div class="post__content">
+                    <p class="post__date text-xs">Octubre 25, 2021</p>
+                    <h3 class="post__title text-sm">SVG SPRITES VS ICON FONT</h3>
+                    <p class="post__description text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Sequi aliquid possimus numquam enim iusto iure, nemo odit! Aperiam reprehenderit ad sapiente ex exercitationem consectetur autem reiciendis?
+                        Sit dicta amet vero.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--============================== blog =====================================-->
+      <section class="contact section" id="contact">
+        <div class="contact__content container">
+            <h2 class="section__title">PONTE EN CONTACTO_</h2>
+            <div class="contact__container grid">
+                <div class="contact__info">
+                    <dl class="contact__list">
+                        <dt>TELEFONO: </dt>
+                        <dd> +58 412-7759254</dd>
+                        <dt> TELEGRAM: </dt>
+                        <dd> @josedig</dd>
+                        <dt>EMAIL: </dt>
+                        <dd>Josedanieliguarangonzalez@gmail.com</dd>
+                    </dl>
+
+                    <ul class="contact__socials">
+                        <li>
+                            <a href="https://www.facebook.com/jose.iguaran.927980/" class="contact__social-link">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jose-iguaran-27a5542b0/" class="contact__social-link">linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/josedig" class="contact__social-link">github</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@josedig7" class="contact__social-link">tiktok</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact__form">
+                    <p class="contact__form-title">O solo escribeme aqui_</p>
+                    <form action="" id="contact-form">
+                        <div class="contact__input-div">
+                            <input  
+                              type="text"
+                             name="name"
+                             placeholder="Tu nombre"
+                              class="contact__input"
+                              id="contact-name"
+                            />
+                        </div>
+
+                         <div class="contact__input-div">
+                            <input 
+                             type="email"
+                             name="email"
+                             placeholder="Tu e-mail"
+                              class="contact__input"
+                              id="contact-email"
+                            />
+                         </div>
+
+                        <div class="contact__input-div">
+                            <textarea 
+                             name="message"
+                             placeholder="Escribe tu mensaje aqui" 
+                             class="contact__input textarea"
+                             id="message" 
+                             cols="30" 
+                             rows="10"
+                             ></textarea>
+                        </div>
+
+                        <p class="contact__message text-sm" id="contact-message"></p>
+
+                        <button type="submit" class="button contact__button">
+                            ENVIAR
+                        </button>
+                    </form>
+
+                    <p class="footer__copy">&copy; 2025 Jose iguaran. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+
+    <!--============================== Mixitup =====================================-->
+    <script src="Proyecto/js/mixitup.min.js"></script>
+
+    <!--============================== swiper Js =====================================-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!--============================== Email Js =====================================-->
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <!--============================== Js =====================================-->
+    <script src="Proyecto/js/main.js"></script>
+
+
+ </body>
+</html>

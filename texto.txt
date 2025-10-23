@@ -1,0 +1,33 @@
+====== HOME =====
+
+.home__name
+Jose Iguaran_
+
+.home__work
+ingeniero en computacion
+
+.home__list
+EDAD:
+21
+
+TELEFONO:
+58 (412) 7759254
+
+EMAIL:
+Josedanieliguarangonzalez@gmail.com
+
+DIRECCION:
+VALLE CLARO CALLE 89 AV 71  MARACAIBO - VENEZUELA
+
+.home__social-link
+https://github.com/josedig
+https://www.linkedin.com/in/jose-iguaran-27a5542b0/
+https://www.facebook.com/jose.iguaran.927980/
+
+============= hello =============
+.Hola_
+
+.hello_details
+Soy un desarrollador web júnior capaz de construir una presencia web desde cero, desde el concepto, la navegación, el diseño y la programación hasta la experiencia de usuario y el SEO.
+Soy experto en escribir código bien diseñado, comprobable y eficiente utilizando las mejores prácticas actuales en desarrollo web.
+Aprendo rápido, trabajo duro y trabajo en equipo,y soy competente en una variedad de lenguajes de scripting y herramientas web multimedia
